@@ -8,7 +8,7 @@ class CPP:
     comment_delimiters = '//',
     multiline_comment_delimiters = {'/*': '*/'}
     string_delimiters = {'"': '"'}
-    multiline_string_delimiters = {'R("': ')"'}
+    multiline_string_delimiters = {'R"(': '")'}
     indent_types = {'{': '}'}
     encapsulators = {'(': ')', '[': ']'}
     keywords = [
